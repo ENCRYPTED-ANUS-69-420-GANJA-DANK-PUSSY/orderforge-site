@@ -16,3 +16,5 @@
 - [ ] Set up simple landing page
 - [ ] Prepare 3D-printed product roadmap
 - [ ] Start zero-cost traffic and lead-generation path
+- [ ] Build free-first marketing system for Orderforge
+- [ ] Add business-facing offers with custom upsells
