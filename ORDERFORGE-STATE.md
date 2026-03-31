@@ -31,18 +31,23 @@ Generate income with minimal work from Matt.
    - https://payhip.com/b/7IOdp
 3. **Orderforge House Cleaner Starter Pack** — $19
    - https://payhip.com/b/AtD7u
+4. **Small Space Storage Bundle** — $7
+   - https://payhip.com/b/TmRIM
+5. **Gaming Setup Organizer Pack** — $7
+   - https://payhip.com/b/P3EMq
+6. **Editable Label Pack** — $5
+   - https://payhip.com/b/RhFoP
+7. **Custom Cleaner Starter Kit** — $39
+   - https://payhip.com/b/Y3RNv
+   - Positioning: done-for-you customization add-on for solo cleaners and small residential cleaning businesses
 
 ## Live bundle
 1. **Orderforge Starter Bundle** — $13
+   - Store page: https://payhip.com/b/BpqN9
    - Checkout URL: https://payhip.com/order?link=BpqN9&pricing_plan=qLWxE35ezk
 
-## Drafts / hidden offers
-1. **Custom Cleaner Starter Kit** — $39
-   - Hidden draft URL: https://payhip.com/b/Y3RNv
-   - Positioning: done-for-you customization add-on for solo cleaners and small residential cleaning businesses
-
-## Built in workspace, not all launched yet
-### Product generators complete
+## Built in workspace
+### Product generators complete and launched
 - Small Space Storage Bundle
 - Gaming Setup Organizer Pack
 - Editable Label Pack
@@ -91,13 +96,10 @@ Why:
 
 ## What still needs to happen
 ### Immediate next steps
-- Launch remaining built packs:
-  - Small Space Storage Bundle
-  - Gaming Setup Organizer Pack
-  - Editable Label Pack
-- Decide whether to publish Custom Cleaner Starter Kit
 - Improve product mockups and previews
 - Start free marketing execution around cleaner offer lane
+- Push outreach and short-form posts around the cleaner offer stack
+- Deploy the simple landing page once hosting access exists
 
 ### Free marketing priorities
 - short-form content
