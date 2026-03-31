@@ -6,7 +6,7 @@ _Learn about the person you're helping. Update this as you go._
 - **What to call them:** Matt
 - **Pronouns:** _(optional)_
 - **Timezone:** America/Vancouver
-- **Notes:** Interested in generating passive income and exploring other legitimate ways to make money. Asked to call the assistant Allistar.
+- **Notes:** Interested in generating passive income and exploring other legitimate ways to make money. Asked to call the assistant Allistar. Business email for Orderforge: Matthew.Phoenix@mail.com.
 
 ## Context
 
