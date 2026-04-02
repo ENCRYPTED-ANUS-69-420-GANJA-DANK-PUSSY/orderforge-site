@@ -1,0 +1,109 @@
+// Instagram Content Pack for Orderforge
+// 3 Posts + 2 Stories ready to screenshot/post
+
+{
+  "post_1": {
+    "type": "carousel",
+    "headline": "Stop rebuilding admin docs every week",
+    "subheadline": "House Cleaner Starter Pack — $19",
+    "bullet_points": [
+      "✓ Quote templates",
+      "✓ Invoices with terms",
+      "✓ Review request scripts",
+      "✓ Pricing sheet builder",
+      "✓ Referral card copy"
+    ],
+    "cta": "Link in bio",
+    "hashtags": "#housecleaner #cleaningbusiness #smallbusiness #solopreneur #businesstemplates #freelancer #cleaningtips #sidehustle"
+  },
+  
+  "post_2": {
+    "type": "single_image",
+    "headline": "Weekend = admin time?",
+    "copy": "Solo cleaners spend Sunday nights rewriting the same quotes, invoices, and review requests.\n\nI made a $19 starter pack so you can stop doing that.\n\nTemplates ready to use. Your branding. No subscription.\n\nPayhip.com/b/AtD7u",
+    "hashtags": "#cleaningservice #housecleaning #smallbiz #womeninbusiness #servicedbasedbusiness #entrepreneur"
+  },
+  
+  "post_3": {
+    "type": "reel_script",
+    "hook": "POV: You're a house cleaner on Sunday night",
+    "script": [
+      "[Show phone with Notes app chaos]",
+      "[Text overlay: Rewriting the same quote from scratch]",
+      "[Cut to clean template]",
+      "[Text: Quote template ready to go]",
+      "[Show invoice, pricing sheet, review script]",
+      "[Text: $19. One time. Use forever.]",
+      "[Link in bio]"
+    ],
+    "duration": "15-20 seconds"
+  },
+  
+  "story_1": {
+    "content": "Poll: Do you use templates for quotes/invoices?",
+    "options": ["Yes, saves time", "No, rewrite each time"],
+    "cta_slide": "If you rewrite every week, check the link. $19 starter pack for cleaners."
+  },
+  
+  "story_2": {
+    "content": "Before/After",
+    "before": "Sunday 8pm: Still figuring out what to charge",
+    "after": "Sunday 8pm: Pricing sheet done, quotes sent",
+    "cta": "Templates = freedom"
+  }
+}
+
+// Caption Templates
+
+const captions = {
+  "caption_1": `Stop rebuilding the same business docs every week.
+
+I made a starter pack specifically for house cleaners and small cleaning businesses with:
+
+→ Quote templates
+→ Invoice templates  
+→ Pricing sheet builder
+→ Review request scripts
+→ Referral card copy
+
+Everything editable. Everything reusable.
+
+$19 one-time. No subscription.
+
+Link in bio →
+
+—
+
+#housecleaner #cleaningbusiness #smallbusiness #solopreneur #businesstemplates #cleaningtips #sidehustle #womeninbusiness`,
+
+  "caption_2": `Sunday night admin shouldn't take 3 hours.
+
+If you're a solo cleaner rewriting the same quotes, invoices, and review requests every week — I built something for you.
+
+House Cleaner Starter Pack: $19
+• Quote template
+• Invoice with terms
+• Pricing builder
+• Review scripts
+• Referral cards
+
+Copy-paste your services, prices, and branding. Done.
+
+Or get it customized for your business for $39.
+
+Link in bio.
+
+#cleaningservice #housecleaning #smallbiz #entrepreneur #servicedbusiness`,
+
+  "caption_reel": `The Sunday night admin struggle is real.
+
+Rewriting quotes from scratch.\nRebuilding invoices.\nFiguring out pricing again.
+
+I made a $19 starter pack for cleaners who are tired of that.
+
+Templates. Ready to go. Your branding.
+
+Link in bio → payhip.com/b/AtD7u
+
+#housecleaner #cleaningbusiness #productivity #smallbusiness #cleaningtips`
+};
