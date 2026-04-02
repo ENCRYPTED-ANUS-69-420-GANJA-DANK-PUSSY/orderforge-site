@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 312" width="820" height="312">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#16213e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f3460;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="820" height="312" fill="url(#bg)" />
+  
+  <!-- Left side: Anvil icon -->
+  <g transform="translate(80, 60)">
+    <path d="M 40 60 L 60 60 L 70 20 L 130 20 L 140 60 L 160 60 L 160 80 L 40 80 Z" fill="#4cc9f0" />
+    <rect x="90" y="80" width="20" height="80" fill="#4cc9f0" />
+    <rect x="70" y="160" width="60" height="20" fill="#4cc9f0" />
+    
+    <rect x="50" y="90" width="100" height="4" fill="#e94560" />
+  </g>
+  
+  <!-- Right side: Text -->
+  <text x="300" y="130" font-family="Arial Black, sans-serif" font-size="64" fill="#ffffff" font-weight="bold">ORDERFORGE</text>
+  
+  <text x="300" y="180" font-family="Arial, sans-serif" font-size="24" fill="#4cc9f0" letter-spacing="2">PRACTICAL DIGITAL TOOLS &amp; 3D PRINTED ACCESSORIES</text>
+  
+  <text x="300" y="230" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" opacity="0.8">For desks, workshops, storage, and small service businesses.</text>
+  
+  <!-- CTA -->
+  <rect x="300" y="260" width="200" height="36" rx="4" fill="#e94560" />
+  <text x="400" y="285" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold">Visit payhip.com/orderforge</text>
+</svg>
