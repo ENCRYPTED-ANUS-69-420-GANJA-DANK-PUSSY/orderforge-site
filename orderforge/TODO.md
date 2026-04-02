@@ -13,8 +13,15 @@
 ## Next
 - [x] Launch more supporting products
 - [ ] Improve existing product quality and previews
-- [ ] Set up simple landing page
-- [ ] Prepare 3D-printed product roadmap
-- [ ] Start zero-cost traffic and lead-generation path
-- [ ] Build free-first marketing system for Orderforge
-- [x] Add business-facing offers with custom upsells
+- [x] Set up simple landing page (built, needs hosting)
+- [ ] Deploy landing page to live hosting
+- [x] Prepare 3D-printed product roadmap (see 3D-PRODUCTION-PLAN.md)
+- [ ] Source PLA filament
+- [ ] Design QR code stand prototype
+- [ ] Print first product batch
+- [ ] Photograph and create Etsy listings
+- [x] Start zero-cost traffic and lead-generation path (outreach kit ready)
+- [x] Build free-first marketing system for Orderforge (scripts + tracking created)
+- [x] Add business-facing offers with custom upsells (both live on Payhip)
+- [ ] Execute: Post to Reddit/Facebook (manual — see OUTREACH-READY.md)
+- [ ] Execute: Send cold DMs to cleaners (manual — see OUTREACH-READY.md)

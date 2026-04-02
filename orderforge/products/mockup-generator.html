@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orderforge Mockup Generator</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #1a1a2e;
+      color: #fff;
+      padding: 40px;
+      min-height: 100vh;
+    }
+    .mockup-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      gap: 30px;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    .mockup-card {
+      background: linear-gradient(135deg, #16213e 0%, #0f3460 100%);
+      border-radius: 12px;
+      padding: 40px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+      position: relative;
+      overflow: hidden;
+    }
+    .mockup-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, #e94560, #ff6b6b);
+    }
+    .brand {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: #e94560;
+      margin-bottom: 20px;
+    }
+    .product-title {
+      font-size: 32px;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 16px;
+    }
+    .price {
+      font-size: 48px;
+      font-weight: 300;
+      color: #4cc9f0;
+      margin-bottom: 20px;
+    }
+    .feature-list {
+      list-style: none;
+      margin: 20px 0;
+    }
+    .feature-list li {
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      font-size: 15px;
+      color: rgba(255,255,255,0.85);
+    }
+    .feature-list li::before {
+      content: '✓';
+      color: #4cc9f0;
+      margin-right: 12px;
+    }
+    .cta {
+      display: inline-block;
+      background: #e94560;
+      color: #fff;
+      padding: 14px 28px;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 14px;
+      margin-top: 20px;
+    }
+    .subtitle {
+      font-size: 18px;
+      color: rgba(255,255,255,0.7);
+      margin-bottom: 24px;
+    }
+    .badge {
+      display: inline-block;
+      background: #4cc9f0;
+      color: #1a1a2e;
+      padding: 4px 12px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+    .social-card {
+      width: 1080px;
+      height: 1080px;
+      background: linear-gradient(135deg, #16213e 0%, #0f3460 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 80px;
+      border-radius: 20px;
+    }
+    .social-card .product-title {
+      font-size: 72px;
+      margin-bottom: 40px;
+    }
+    .social-card .subtitle {
+      font-size: 42px;
+      margin-bottom: 60px;
+    }
+    .social-card .cta {
+      font-size: 32px;
+      padding: 30px 60px;
+      border-radius: 12px;
+    }
+    .social-card .brand {
+      font-size: 28px;
+      margin-bottom: 60px;
+    }
+  </style>
+</head>
+<body>
+  <div class="mockup-grid">
+    <!-- House Cleaner Starter Pack -->
+    <div class="mockup-card">
+      <div class="brand">ORDERFORGE</div>
+      <div class="badge">DIGITAL DOWNLOAD</div>
+      <h2 class="product-title">House Cleaner<br>Starter Pack</h2>
+      <div class="price">$19</div>
+      <p class="subtitle">Business templates for solo cleaners</p>
+      <ul class="feature-list">
+        <li>Quote template (scope + pricing)</li>
+        <li>Invoice with payment terms</li>
+        <li>Pricing sheet builder</li>
+        <li>Review request scripts</li>
+        <li>Referral card copy</li>
+        <li>Before/after content prompts</li>
+      </ul>
+      <span class="cta">Instant download · No subscription</span>
+    </div>
+
+    <!-- Custom Cleaner Starter Kit -->
+    <div class="mockup-card">
+      <div class="brand">ORDERFORGE</div>
+      <div class="badge" style="background: #e94560;">DONE FOR YOU</div>
+      <h2 class="product-title">Custom Cleaner<br>Starter Kit</h2>
+      <div class="price">$39</div>
+      <p class="subtitle">Customized with your branding</p>
+      <ul class="feature-list">
+        <li>All Starter Pack templates</li>
+        <li>Your logo &amp; colors</li>
+        <li>Your services &amp; pricing</li>
+        <li>Your contact info integrated</li>
+        <li>Ready to use immediately</li>
+        <li>48-hour delivery</li>
+      </ul>
+      <span class="cta">Customization included · One-time fee</span>
+    </div>
+
+    <!-- Small Space Storage -->
+    <div class="mockup-card">
+      <div class="brand">ORDERFORGE</div>
+      <div class="badge">DIGITAL DOWNLOAD</div>
+      <h2 class="product-title">Small Space<br>Storage Bundle</h2>
+      <div class="price">$7</div>
+      <p class="subtitle">Organization for tight spaces</p>
+      <ul class="feature-list">
+        <li>Storage audit checklist</li>
+        <li>Zone planning templates</li>
+        <li>Label designs</li>
+        <li>Before/after trackers</li>
+      </ul>
+      <span class="cta">Printable · Instant access</span>
+    </div>
+  </div>
+
+  <!-- Social Media Square -->
+  <div style="margin-top: 60px;">
+    <h3 style="text-align: center; margin-bottom: 30px;">Social Media Format (1080x1080)</h3>
+    <div class="social-card">
+      <div class="brand">ORDERFORGE</div>
+      <h2 class="product-title">Stop rebuilding<br>admin docs<br>every week.</h2>
+      <p class="subtitle">House Cleaner Starter Pack — $19</p>
+      <span class="cta">payhip.com/orderforge</span>
+    </div>
+  </div>
+</body>
+</html>
