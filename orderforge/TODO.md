@@ -14,7 +14,10 @@
 - [x] Launch more supporting products
 - [ ] Improve existing product quality and previews
 - [x] Set up simple landing page (built, needs hosting)
-- [ ] Deploy landing page to live hosting
+- [x] Expand landing page with all 7 products (2026-04-02)
+- [x] Add favicon and Open Graph meta tags (2026-04-02)
+- [ ] Deploy landing page to live hosting (see DEPLOY.md)
+- [x] Prepare social content pack (see SOCIAL-CONTENT-READY.md)
 - [x] Prepare 3D-printed product roadmap (see 3D-PRODUCTION-PLAN.md)
 - [ ] Source PLA filament
 - [ ] Design QR code stand prototype
@@ -23,5 +26,5 @@
 - [x] Start zero-cost traffic and lead-generation path (outreach kit ready)
 - [x] Build free-first marketing system for Orderforge (scripts + tracking created)
 - [x] Add business-facing offers with custom upsells (both live on Payhip)
-- [ ] Execute: Post to Reddit/Facebook (manual — see OUTREACH-READY.md)
+- [ ] Execute: Post to Reddit/Facebook (manual — see OUTREACH-READY.md and SOCIAL-CONTENT-READY.md)
 - [ ] Execute: Send cold DMs to cleaners (manual — see OUTREACH-READY.md)
