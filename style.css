@@ -14,7 +14,8 @@ nav a { font-size: 14px; color: #57534e; transition: color 0.15s; }
 nav a:hover { color: #111827; }
 
 /* Hero */
-.hero { padding: 80px 0 60px; }
+.hero { padding: 80px 0 60px; display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(320px, 0.9fr); gap: 40px; align-items: center; }
+.hero-art img, .about-media img { width: 100%; height: auto; display: block; border-radius: 20px; border: 1px solid #e5e7eb; box-shadow: 0 16px 40px rgba(0,0,0,0.08); background: white; }
 .eyebrow { text-transform: uppercase; letter-spacing: 0.14em; color: #6b7280; font-size: 11px; font-weight: 600; margin-bottom: 12px; }
 h1 { font-size: clamp(32px, 5vw, 56px); line-height: 1.1; margin: 0 0 20px; max-width: 800px; font-weight: 700; }
 .lede { font-size: 18px; color: #4b5563; max-width: 680px; line-height: 1.6; margin: 0; }
@@ -39,17 +40,19 @@ h2 { font-size: 28px; margin: 0 0 16px; font-weight: 700; }
 /* Cards */
 .card { background: white; border: 1px solid #e5e7eb; border-radius: 12px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.04); transition: box-shadow 0.15s, transform 0.15s; }
 .card:hover { box-shadow: 0 8px 24px rgba(0,0,0,0.1); transform: translateY(-4px); }
-.card img { width: 100%; height: 200px; object-fit: cover; background: #f3f4f6; }
+.card img { width: 100%; height: 220px; object-fit: cover; background: #f3f4f6; }
 .card-content { padding: 20px; }
 .card h3 { font-size: 16px; margin: 0 0 4px; font-weight: 600; }
 .card .price { font-size: 18px; font-weight: 700; color: #4f46e5; margin: 0 0 8px; }
 .card p { font-size: 14px; color: #6b7280; margin: 0 0 12px; line-height: 1.5; }
+.card .meta { color: #374151; font-size: 13px; font-weight: 500; }
 .card a { font-size: 14px; font-weight: 500; color: #4f46e5; }
 .card a:hover { color: #6366f1; }
 .card.highlight { border-color: #4f46e5; }
 .card.highlight .price { color: #7c3aed; }
 
 /* About */
+.about-section { display: grid; grid-template-columns: minmax(0, 1fr) minmax(300px, 420px); gap: 40px; align-items: start; }
 .about-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 32px; }
 .about-item h3 { font-size: 16px; margin: 0 0 8px; font-weight: 600; }
 .about-item p { font-size: 14px; color: #6b7280; margin: 0; line-height: 1.6; }
@@ -70,6 +73,10 @@ footer { padding: 32px 0; border-top: 1px solid #e5e5e5; margin-top: 40px; }
 .footer-note { color: #9ca3af; font-size: 12px; }
 
 /* Responsive */
+@media (max-width: 900px) {
+  .hero, .about-section { grid-template-columns: 1fr; }
+}
+
 @media (max-width: 720px) {
   header { flex-direction: column; align-items: flex-start; gap: 16px; }
   nav { flex-wrap: wrap; gap: 12px; }
