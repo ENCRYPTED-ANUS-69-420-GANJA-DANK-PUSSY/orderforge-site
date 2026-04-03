@@ -67,39 +67,40 @@ Generate income with minimal work from Matt.
 - `orderforge/NEXT-LAUNCH-CHECKPOINT.md`
 
 ## Current strategy
-### Lane 1 — scalable digital products
-Use Payhip to sell practical organization packs and niche business starter kits.
+### Immediate focus
+Orderforge is now focusing on practical business systems for solo local-service operators.
 
-### Lane 2 — faster cash custom offers
-Use done-for-you customization offers to generate money sooner than waiting for storefront traffic alone.
+### First niche
+- House cleaners
 
-### Lane 3 — future 3D-print pivot
-Later expand into:
-- QR stands
-- label holders
-- organizers
-- brackets
-- mounts
-- signage
-- small business accessories
+### Revenue model
+- low-ticket starter pack
+- higher-ticket customization upsell
+- later expansion into adjacent service niches using the same system
+
+### 3D-print lane
+Still viable later, but postponed until Matt is comfortable with the printer and revenue exists.
+Do not lead the brand with 3D printing right now.
 
 ## Best near-term money angle
-Focus on business-facing offers, especially:
+Focus on:
 - House Cleaner Starter Pack
 - Custom Cleaner Starter Kit
 
 Why:
-- better chance of fast cash than generic consumer printables
+- already built and live
+- clearer buyer pain than generic organization printables
+- better chance of fast cash from zero-budget outreach
 - easier upsell path
-- easier service-to-product pipeline
-- good bridge into future physical/3D items
+- easiest route to first validated revenue
 
 ## What still needs to happen
 ### Immediate next steps
-- Improve product mockups and previews
+- Rebuild landing page around the cleaner offer lane
+- Improve product mockups and previews for the cleaner products
 - Start free marketing execution around cleaner offer lane
 - Push outreach and short-form posts around the cleaner offer stack
-- Deploy the simple landing page once hosting access exists
+- Deploy the landing page once hosting access exists
 
 ### Free marketing priorities
 - short-form content
